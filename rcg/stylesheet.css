@@ -1,0 +1,60 @@
+body{ 
+	background: #FFF;
+	color: #000000;
+	font:"Roboto", sans-serif;
+	font-weight:400;
+}
+
+form{
+
+	font-family:"Roboto";
+	font-weight:700;
+	width: 80%;
+	margin: 20% auto;
+}
+
+/*.code{
+	font-family:'Roboto',sans-serif;
+	font-weight:400;
+	color:red;
+	margin:0 auto;
+	width:100%;
+	font-size:3vw;
+
+}*/
+
+input[type=submit] {
+	
+	color:white;
+	background: transparent;
+	border:none;
+	outline:none;
+	font-family: "Roboto",sans-serif;
+	font-weight:700;
+	font-size: 5vw;
+	text-shadow: 0.1vw  0.2vw 0.1vw #000;
+	width:100%;
+}
+
+
+span button{
+	
+	color:white;
+	background: transparent;
+	font-family: "Roboto",sans-serif;
+	font-weight:300;
+	font-size: 3vw;
+	/*width:100%;
+	text-shadow: 0.1vw  0.2vw 0.1vw #000;
+	/*background: transparent;
+	border:none;
+	outline:none;
+	*/
+}
+
+form{
+
+	border: 1px solid black;
+	height:auto;
+}
+

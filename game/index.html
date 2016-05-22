@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Cryizellyfish - the game</title>
+  <link rel="stylesheet" href="dist/stylesheets/superslides.css">
+  <link rel="stylesheet" href="dist/stylesheets/idangerous.swiper.css">
+  
+  <script src="javascripts/jquery-1.10.0.js"></script>
+  <script src="javascripts/jquery.easing.1.3.js"></script>
+  <script src="javascripts/jquery.animate-enhanced.min.js"></script>
+  <script src="dist/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
+  <script src="javascripts/idangerous.swiper-2.0.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="javascripts/scripts.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<!--<div id="test" style="z-index:1; display:none;">Initialize game</div>-->
+  <div id="slides1">
+    <div class="slides-container">
+    	<div id="slide0"> 
+            Eh you what name ah?
+            <form action="javascript:greet();">
+  				<input type="text" id="name">
+                <input type="submit" value="Go" style="visibility:hidden;">
+			</form>
+      	</div>
+    	<div id="slide1">
+        	<div id="top" style="position:absolute; z-index:2; width:100%;">hola <span id="greet"></span><br>
+        		If you wish to continue, <a href="javascript:void(0)" onClick="start();">click here</a></div>
+        	<div id="test" style="z-index:1; opacity:0; position:absolute; width:100%;">
+            	Initialize game
+       			<br>
+   				<div class="swiper-container">
+      				<div class="swiper-wrapper">
+          				<div class="swiper-slide" style="background-color:green;"><a href="javascript:void(0)" id="toMovie" onClick="playMovie();">LOTS OF TEXT</a></div>
+          				<div class="swiper-slide" style="background-color:black;"></div>
+          				<div class="swiper-slide" style="background-color:green;"></div>
+          				<div class="swiper-slide" style="background-color:black;"></div>
+      				</div>
+  				</div>
+             </div>
+         </div>
+  
+      	<div id="slide2"> 
+        	<iframe id="movie" type="text/html" width="100%" height="100%" src="https://www.youtube.com/embed/VEYTKrukg78?controls=0&rel=0&showinfo=0&color=white" frameborder="0" allowfullscreen>
+      	</div>
+  
+  
+  
+        </div>
+    </div>
+
+</body>
+</html>

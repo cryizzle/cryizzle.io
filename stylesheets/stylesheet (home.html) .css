@@ -1,0 +1,119 @@
+/*Individual slide styling*/
+
+body{
+	margin:0px;
+	background-color: #C4E5D4;
+	font-family: 'Roboto', sans-serif;
+	display:none;
+}
+
+img, a{
+	outline:none;
+	border:none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+	line-height:none;
+}
+
+h1{
+	font-weight:900;
+	font-size:7vw;
+	color:#BECABE;
+}
+
+h2{
+	font-weight:700;
+	font-size:4.5vw;
+	color:#A8612F;
+}
+
+p{
+	font-weight:400;
+	font-size:2vw;
+	color:#7F6247;
+}
+
+.piclink{
+	width:80%;
+	opacity:0.6;
+	transition-property : opacity; 
+  	transition-duration : 0.3s;
+}
+
+.piclink:hover{
+	width:80%;
+	opacity:1;
+	transition-property : opacity; 
+  	transition-duration : 0.3s;
+}
+
+.content{
+	width:80%;
+	margin:0 auto;
+}
+
+/*#movie{
+	margin:0;
+	padding:0;
+}*/
+
+/*NAVBAR STYLING*/
+
+.navbar{
+	font-weight:700;
+	font-size:2vw;
+	width:100%;
+	height:55px;
+	background-color:#83AF9B;
+	text-transform:uppercase;
+	color:#C8C8A9;
+}
+
+.navbar ul li{
+	vertical-align:middle;
+	width:20%;
+	display: inline-block;
+	list-style:none;
+}
+
+.navbar ul li a:hover{
+	color: #FC9D9A;
+}
+
+.navbar ul{
+	text-align:center;
+	height:55px;
+}
+
+.navbar .active{
+	color: #FC9D9A;
+}
+
+/*END OF NAVBAR STYLING*/
+	
+/*INDIVIDUAL DIV STYLING BY ID*/
+
+#home{
+
+	width:100%;
+}
+
+#about{
+	background-color:#D2CFAE;
+	width:100%;
+}
+
+#portfolio{
+
+	width:100%;
+}
+
+#blog{
+
+	width:100%;
+}
+
+
+/*END OF INDIVIDUAL DIV STYLING BY ID*/
